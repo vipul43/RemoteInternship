@@ -1,14 +1,12 @@
 const express = require('express')
-const cors = require('cors')
-
+var fs = require('fs');
+const path = require('path');
 const app = express()
 
 
-app.use(cors());
-app.use(express.json());
-
 app.get('/', function (req, res) {
-  res.send("SO FAR SO GOOD");
+  var data = JSON.stringify(JSON.parse(fs.readFileSync('./data.json', 'utf8')));
+  res.send(data);
 })
 
 app.get('/goog', function (req, res) {
