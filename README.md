@@ -2,8 +2,8 @@
 ## NOTE: This project has all the dependencies installed and accounted for in "package.json" file in root directory
 # Introduction 
 - There are two tasks accomplised in this project 
-- task-one is to redirect to "google.com" upon entering the url "localhost/goog"(this task is stored in remote1 dir)
-- task-two is to display local json file content in browser(this task is stored in remote2 dir)
+- task-one is to redirect to "google.com" upon entering the url "localhost/goog"(this task is stored in remote dir)
+- task-two is to display local json file content in browser(this task is also stored in remote dir)
 
 # Getting Started
 1.	a) download node from here https://nodejs.org/en/download/
